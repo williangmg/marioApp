@@ -6,7 +6,7 @@ Uma aplicação front-end feita com **React + Vite**, inspirada no empresário M
 
 ## 📌 Objetivo
 
-Criar uma interface divertida e interativa com elementos visuais e inspirados no Mario. Ideal para praticar React e experimentar animações e estilos pessoais de empresários.
+Criar uma interface divertida e interativa com elementos visuais inspirados no Mario. Ideal para praticar React e experimentar animações e estilos pessoais de empresários.
 
 ---
 
