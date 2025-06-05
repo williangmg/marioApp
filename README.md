@@ -1,12 +1,38 @@
-# React + Vite
+# 🎮 marioApp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Uma aplicação front-end feita com **React + Vite**, inspirada no empresário Mário Spalatti.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Objetivo
 
-## Expanding the ESLint configuration
+Criar uma interface divertida e interativa com elementos visuais e inspirados no Mario. Ideal para praticar React e experimentar animações e estilos pessoais de empresários.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Tecnologias Utilizadas
+
+- ⚛️ React
+- ⚡ Vite
+- 💅 CSS
+- 🧱 HTML
+- 🎨 [Opcional] TailwindCSS ou styled-components
+
+---
+
+## 🛠️ Como rodar o projeto localmente
+
+> Pré-requisitos: Node.js e npm instalados
+
+```bash
+# Clone o repositório (se ainda não estiver clonado)
+git clone https://github.com/seu-usuario/marioApp.git
+
+# Acesse a pasta do projeto
+cd marioApp
+
+# Instale as dependências
+npm install
+
+# Rode a aplicação em modo de desenvolvimento
+npm run dev
