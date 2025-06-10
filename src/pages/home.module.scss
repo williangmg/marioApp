@@ -1,0 +1,23 @@
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: flex-start;
+  height: 100vh;
+  width: 100vw; // 👈 GARANTE que ocupa a largura total da tela
+  background-color: white;
+
+  h1 {
+    color: #222;
+    max-width: 70%; // opcional, melhora a leitura
+  }
+
+  .marioImage {
+      bottom: 0;
+    right: 0;
+    height: 90%;
+    pointer-events: none;
+    z-index: 10;
+  }
+}

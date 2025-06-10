@@ -1,11 +1,13 @@
 // src/App.jsx
 import React from "react";
-import Home from "./components/home";
+import NavBarTopo from "./components/navBarTopo";
+import Home from "./pages/home"; // Adjust the path as necessary
 
 function App() {
   return (
     <>
-      <Home />;
+      <NavBarTopo />
+      <Home />
     </>
   );
 }
