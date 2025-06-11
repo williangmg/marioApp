@@ -7,12 +7,12 @@ function Home() {
   return (
     <>
       <div className={styles.homeContainer}>
-        <h1>Bem vindo ao Perfil Profissional do Mario</h1>
-        <h1>Welcome to the Mario's Professional Profile</h1>
-      <ButtonHome text="Sobre mim" onClick={() => alert("Sobre mim")} className="sobreMim" />
-      <ButtonHome text="Start" onClick={() => alert("Start")} className="startButton" />
+        <h1>Bem vindo ao empresário Mario Spalatti</h1>
+        <h1>Welcome to businessman Mario Spalatti</h1>
+        <ButtonHome text="Sobre mim" onClick={() => alert("Sobre mim")} className="sobreMim" />
+        <ButtonHome text="Start" onClick={() => alert("Start")} className="startButton" />
       </div>
-        {/* <img src={marioImage} alt="Mario" className="marioImage"/> */}
+      {/* <img src={marioImage} alt="Mario" className="marioImage"/> */}
     </>
   );
 }

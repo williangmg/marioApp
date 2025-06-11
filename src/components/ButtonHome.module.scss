@@ -1,5 +1,5 @@
 .customButton {
-  background-color: #4a90e2;
+  background-color: black;
   color: white;
   border: none;
   padding: 0.75rem 1.5rem;
@@ -9,7 +9,7 @@
   transition: background 0.3s;
 
   &:hover {
-    background-color: #357ab7;
+    background-color: #707070;
   }
 
   &:active {

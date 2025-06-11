@@ -1,23 +1,20 @@
-.homeContainer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  align-items: flex-start;
-  height: 100vh;
-  width: 100vw; // 👈 GARANTE que ocupa a largura total da tela
-  background-color: white;
+  .homeContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 
-  h1 {
-    color: #222;
-    max-width: 70%; // opcional, melhora a leitura
-  }
+    h1 {
+      margin: 0.5rem 0;
+      color: #222;
+      font-size: 2.5rem;
+    }
 
-  .marioImage {
-      bottom: 0;
-    right: 0;
-    height: 90%;
-    pointer-events: none;
-    z-index: 10;
+    .marioImage {
+        bottom: 0;
+      right: 0;
+      height: 90%;
+      pointer-events: none;
+      z-index: 10;
+    }
   }
-}
