@@ -1,11 +1,15 @@
-import React from "react";
-import styles from "./ButtonHome.module.scss"; // ou use .css se preferir
+import { Button } from "react-bootstrap"; // Importa botão estilizado do Bootstrap
 
 function ButtonHome({ text, onClick, type = "button", className = "" }) {
   return (
-    <button className={`${styles.customButton} ${className}`} onClick={onClick} type={type}>
+    <Button
+      variant="info"
+      onClick={onClick}
+      type={type}
+      className={`my-2 ${className}`} 
+    >
       {text}
-    </button>
+    </Button>
   );
 }
 

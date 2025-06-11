@@ -1,20 +1,44 @@
-  .homeContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+// home.module.scss
 
-    h1 {
-      margin: 0.5rem 0;
-      color: #222;
-      font-size: 2.5rem;
-    }
-
-    .marioImage {
-        bottom: 0;
-      right: 0;
-      height: 90%;
-      pointer-events: none;
-      z-index: 10;
+.homeContainer {
+  padding: 2rem;
+  text-align: center;
+  
+  h1 {
+    margin: 0.5rem 0;
+    color: #222;
+    font-size: 2rem; // Reduzi um pouco o tamanho
+    
+    &:first-child {
+      margin-top: 0;
     }
   }
+}
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+  
+  .marioImage {
+    max-width: 100%;
+    max-height: 80vh; // Limita a altura
+    width: auto;
+    height: auto;
+    object-fit: contain;
+  }
+}
+
+// Para telas menores
+@media (max-width: 768px) {
+  .homeContainer {
+    h1 {
+      font-size: 1.5rem;
+    }
+  }
+  
+  .imageContainer {
+    margin-top: 2rem;
+  }
+}
