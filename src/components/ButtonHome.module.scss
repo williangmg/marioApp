@@ -1,18 +1,25 @@
 .customButton {
-  background-color: black;
-  color: white;
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  color: #fff;
+  font-size: 1.2rem;
+  font-weight: 600;
   border: none;
-  padding: 0.75rem 1.5rem;
-  font-size: 1rem;
-  border-radius: 0.5rem;
-  cursor: pointer;
-  transition: background 0.3s;
+  width: 60%;
+  height: 4rem;
+  border-radius: 0.75rem;
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3);
+  transition: all 0.3s ease;
+  margin: 1rem 0rem;
+}
 
-  &:hover {
-    background-color: #707070;
-  }
+.customButton:hover {
+  background: linear-gradient(135deg, #0069d9, #004a99);
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0, 123, 255, 0.4);
+}
 
-  &:active {
-    transform: scale(0.98);
-  }
+.customButton:active {
+  transform: scale(0.97);
+  background: linear-gradient(135deg, #004a99, #003566);
+  box-shadow: 0 3px 8px rgba(0, 123, 255, 0.2);
 }

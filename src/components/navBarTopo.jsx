@@ -6,8 +6,10 @@ function NavBarTopo() {
     <nav className={styles.navBarTopo}>
       <ul>
         <li>Home</li>
-        <li>About</li>
-        <li>Contact</li>
+        <li>Jurídico</li>
+        <li>Imobiliário</li>        
+        <li>Contato</li>
+        <li>Sobre mim</li>
       </ul>
     </nav>
   );

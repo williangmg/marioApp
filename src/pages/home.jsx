@@ -1,52 +1,35 @@
-import marioImage from "../components/fotos/marioCruzado.png";
-import ButtonHome from "../components/ButtonHome";
+import marioImage from "../components/fotos/marioImage.jpg";
+import ButtonHome from "../components/buttonHome.jsx";
 import styles from "./home.module.scss";
 import { Container, Row, Col } from "react-bootstrap";
 
 function Home() {
   return (
     <Container fluid>
-      <Row className="align-items-center">
-        {" "}
-        {/* Adicione alinhamento vertical */}
+      <Row className={styles.rowFullHeight}>
         <Col md={4} className={styles.textContainer}>
-          {" "}
-          {/* Renomeei a classe */}
           <div className={styles.textContent}>
-            {" "}
-            {/* Adicionei uma div para estilização */}
-            <h1>Mario Spalatti</h1>
-            <h2>Empresário</h2>
+            <h1>Mário Spalatti</h1>
+            <h2>Empresário e advogado</h2>
             <p>
-              Mario Spalatti é um empresário renomado, conhecido por sua visão
+              Mário Spalatti é um empresário renomado, conhecido por sua visão
               inovadora e liderança no setor. Com uma carreira marcada por
-              sucessos, ele continua a inspirar e liderar com integridade e
+              sucessos, ele continua a inspirar e trabalhar com integridade e
               paixão.
             </p>
           </div>
         </Col>
-        <Col md={4} className={styles.homeContainer}>
-          <div>
-            <h1>Bem vindo ao empresário Mario Spalatti</h1>
-            <h1>Welcome to businessman Mario Spalatti</h1>
-            <ButtonHome
-              text="Sobre mim"
-              onClick={() => alert("Sobre mim")}
-              type="sobreMim"
-            />
-            <ButtonHome
-              text="Start"
-              onClick={() => alert("Start")}
-              type="start"
-            />
-          </div>
+        <Col md={4} className={styles.meioContainer}>
+          <h1>Bem vindo ao empresário Mário Spalatti</h1>
+          <ButtonHome text="Jurídico" onClick={() => alert("Jurídico")} />
+          <ButtonHome text="Imobiliário" onClick={() => alert("Imobiliário")} />
+          <ButtonHome text="Contato" onClick={() => alert("Contato")} />
+          <ButtonHome text="Sobre Mim" onClick={() => alert("Sobre Mim")} />
         </Col>
         <Col md={4} className={styles.imageContainer}>
-          {" "}
-          {/* Renomeei a classe */}
           <img
             src={marioImage}
-            alt="Mario"
+            alt="Mário Spalatti"
             className={` ${styles.marioImage}`}
           />
         </Col>
