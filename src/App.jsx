@@ -1,14 +1,18 @@
 // src/App.jsx
-import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NavBarTopo from "./components/navBarTopo";
-import Home from "./pages/home"; // Adjust the path as necessary
+import Home from "./pages/home";
+import Contato from "./pages/contato";  // Crie esse arquivo depois
 
 function App() {
   return (
-    <>
+    <BrowserRouter>
       <NavBarTopo />
-      <Home />
-    </>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/contato" element={<Contato />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
